@@ -32,6 +32,7 @@ Mobile Flashcards is the third of three projects on the Udacity's React Nanodegr
 It's a React Native app for iOS and Android that allows users to create/delete decks, add new cards and quiz themselves.
 
 ![screenshot #1](screenshots/home.png)
+**Live Demo** [https://expo.dev/@etonar/mobile-flashcards]
 
 ## Technologies
 
