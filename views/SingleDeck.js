@@ -30,7 +30,7 @@ const SingleDeck = ({ navigation, route, dispatch }) => {
 
   return (
     <View style={styles.container}>
-      <Deck style={styles.deckBox} id={id} questions={questions} />
+      <Deck style={styles.deck} id={id} questions={questions} />
       <View>
         <Button
           textBtn={{ color: black }}
@@ -62,11 +62,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: lightGreen,
   },
-  deckBox: {
+  deck: {
     backgroundColor: lightGray,
     borderRadius: 3,
-    width: 100,
-    height: 150,
   },
 })
 
