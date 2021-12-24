@@ -32,3 +32,30 @@ Mobile Flashcards is the third of three projects on the Udacity's React Nanodegr
 It's a React Native app for iOS and Android that allows users to create/delete decks, add new cards and quiz themselves.
 
 ![screenshot #1](screenshots/home.png)
+
+## Technologies
+
+### Client Side
+
+- HTML, CSS
+- ES6 (modules, promises, async/await ...)
+- React
+- React Native
+- Expo
+- Redux
+
+## Backend Server
+
+The \_DATA.js file represents a fake database and methods that let you access the data.
+
+## Tests
+
+| Platform | Device              | Tested             |
+| :------- | :------------------ | :----------------- |
+| Web      | Firefox 95.0.2      | :white_check_mark: |
+| Android  | LG G6 (android 9.0) | :white_check_mark: |
+
+## References
+
+Special thanks to https://github.com/cangir/
+And https://github.com/james-priest
