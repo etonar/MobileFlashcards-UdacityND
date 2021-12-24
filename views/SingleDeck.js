@@ -4,7 +4,7 @@ import Deck from '../components/Deck'
 import Button from '../components/Button'
 import { lightGreen, black, lightGray } from '../utils/colors'
 import ButtonText from '../components/ButtonText'
-import { useSelector } from 'react-redux'
+import { connect, useSelector } from 'react-redux'
 import { handleRemoveDeck } from '../redux/actions'
 
 const SingleDeck = ({ navigation, route, dispatch }) => {
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default SingleDeck
+export default connect()(SingleDeck)
