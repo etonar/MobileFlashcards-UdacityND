@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "orientation": "portrait",
+    "name": "MobileFlashcards",
+    "description": "Mobile Card Quiz app",
+    "slug": "mobile-flashcards",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.etonar.mobileflashcards"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  },
+  "ios": {
+    "bundleIdentifier": "org.mobileflashcards.exp"
+  },
+  "android": {
+    "package": "org.mobileflashcards.exp"
+  }
+}

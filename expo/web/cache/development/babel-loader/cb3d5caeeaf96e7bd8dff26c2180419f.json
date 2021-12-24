@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var DECKS_STORAGE_KEY = 'MobileFlashcards:decks';","map":{"version":3,"sources":["C:/Users/AHMED/Desktop/mobile-flashcards-udacity/utils/helpers.js"],"names":["DECKS_STORAGE_KEY"],"mappings":"AAAA,OAAO,IAAMA,iBAAiB,GAAG,wBAA1B","sourcesContent":["export const DECKS_STORAGE_KEY = 'MobileFlashcards:decks'\r\n"]},"metadata":{},"sourceType":"module"}
